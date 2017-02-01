@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!-- Stylesheets
+	============================================= -->
+    <!-- FONTS -->
+    <link href="fonts/raleway/raleway.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="fonts/lato/lato.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="http://fonts.googleapis.com/css?family=Crete+Round:400italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <!-- Bootstrap Select CSS -->
+    <link rel="stylesheet" href="css/bs-select.css" type="text/css" />
+    <!-- Range Slider CSS -->
+    <link rel="stylesheet" href="css/ion.rangeslider.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Document Title
+	============================================= -->
+    <title>Product</title>
+    <style>
+        .white-section {
+            background-color: #FFF;
+            padding: 25px 20px;
+            -webkit-box-shadow: 0px 1px 1px 0px #dfdfdf;
+            box-shadow: 0px 1px 1px 0px #dfdfdf;
+            border-radius: 3px;
+        }
+        
+        .white-section label {
+            margin-bottom: 30px;
+        }
+        
+        .dark .white-section {
+            background-color: #333;
+            -webkit-box-shadow: 0px 1px 1px 0px #444;
+            box-shadow: 0px 1px 1px 0px #444;
+        }
+    </style>
+</head>
+
+<body class="stretched">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+        <!-- Top Bar
+		============================================= -->
+        <div id="top-bar">
+            <div class="container-fullwidth clearfix">
+                <div class="col_half nobottommargin hidden-xs">
+                    <p class="nobottommargin"><i class='fa fa-phone'></i>&nbsp;(495) 668-07-17&nbsp;&nbsp;&nbsp;(8352) 36-71-71&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<i class='fa fa fa-envelope'></i>&nbsp;<a href='mailto:sales@onelec.ru'>isales@onelec.ru</a></p>
+                </div>
+                <div class="col_half col_last fright nobottommargin">
+                    <!-- Top Links
+					============================================= -->
+                    <div class="top-links">
+                        <ul>
+                            <li><a href="#">RUB</a>
+                                <ul>
+                                    <li><a href="#">USD</a></li>
+                                    <li><a href="#">EUR</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">RU</a>
+                                <ul>
+                                    <li>
+                                        <a href="#"><img src="images/engl.png"> EN</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/french.png"> FR</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/german.png"> DE</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Вход</a>
+                                <div class="top-link-section">
+                                    <form id="top-login" role="form">
+                                        <div class="input-group" id="top-login-username"> <span class="input-group-addon"><i class="icon-user"></i></span>
+                                            <input type="email" class="form-control" placeholder="Email адрес" required=""> </div>
+                                        <div class="input-group" id="top-login-password"> <span class="input-group-addon"><i class="icon-key"></i></span>
+                                            <input type="password" class="form-control" placeholder="Пароль" required=""> </div>
+                                        <label class="checkbox">
+                                            <input type="checkbox" value="remember-me"> Забыл пароль </label>
+                                        <button class="btn btn-danger btn-block" type="submit">Вход</button>
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- .top-links end -->
+                </div>
+            </div>
+        </div>
+        <!-- #top-bar end -->
+        <!-- Header
+		============================================= -->
+        <header id="header">
+            <div id="header-wrap">
+                <div class="container-fullwidth clearfix">
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                    <!-- Logo
+					============================================= -->
+                    <div id="logo">
+                        <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png"></a>
+                        <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" ></a>
+                    </div>
+                    <!-- #logo end -->
+                    <!-- Primary Navigation
+					============================================= -->
+                    <nav id="primary-menu">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div>Главная</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>Каталог</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop.html">
+                                    <div>Линия поставок</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop.html">
+                                    <div>Новости</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- Top Cart
+						============================================= -->
+                        <div id="top-cart"> <a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
+                            <div class="top-cart-content">
+                                <div class="top-cart-title">
+                                    <h4>Товары в корзине</h4> </div>
+                                <div class="top-cart-items">
+                                    <div class="top-cart-item clearfix">
+                                        <div class="top-cart-item-image">
+                                            <a href="#"><img src="img/3.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="top-cart-item-desc"> <a href="#">ETCC2301212</a> <span class="top-cart-item-price">24.99 ₽</span> <span class="top-cart-item-quantity">x 2</span> </div>
+                                    </div>
+                                    <div class="top-cart-item clearfix">
+                                        <div class="top-cart-item-image">
+                                            <a href="#"><img src="img/3.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="top-cart-item-desc"> <a href="#">ETCC2301212</a> <span class="top-cart-item-price">39.99 ₽</span> <span class="top-cart-item-quantity">x 3</span> </div>
+                                    </div>
+                                </div>
+                                <div class="top-cart-action clearfix"> <span class="fleft top-checkout-price">114.95 ₽</span>
+                                    <button class="button button-3d button-small nomargin fright">Оформить</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #top-cart end -->
+                        <!-- Top Search
+						============================================= -->
+                        <div id="top-search"> <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                            <form action="search.html" method="get">
+                                <input type="text" name="q" class="form-control" value="" placeholder="Найти по назаванию или производителю"> </form>
+                        </div>
+                        <!-- #top-search end -->
+                    </nav>
+                    <!-- #primary-menu end -->
+                </div>
+            </div>
+        </header>
+        <!-- #header end -->
+        <!-- Page Title
+		============================================= -->
+        <section id="page-title">
+            <div class="container-fullwidth clearfix">
+                <h1>ETCC2301212</h1>
+                <ol class="breadcrumb">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Индуктивные компоненты</a></li>
+                    <li><a href="#">Трансформаторы питания</a></li>
+                    <li><a href="#">На DIN-рейку</a></li>
+                </ol>
+            </div>
+        </section>
+        <!-- #page-title end -->
+        <!-- Content
+		============================================= -->
+        <section id="content">
+            <div class="content-wrap">
+                <div class="container clearfix">
+                    <div class="single-product">
+                        <div class="product">
+                            <div class="col_one_fourth">
+                                <!-- Product Single - Gallery
+								============================================= -->
+                                <div class="product-image">
+                                    <div class="fslider" data-pagi="false" data-arrows="false" data-thumbs="true">
+                                        <div class="flexslider">
+                                            <div class="slider-wrap" data-lightbox="gallery">
+                                                <div class="slide" data-thumb="img/3t.jpg">
+                                                    <a href="img/3.jpg" data-lightbox="gallery-item"><img src="img/3.jpg"></a>
+                                                </div>
+                                                <div class="slide" data-thumb="img/3-1t.jpg">
+                                                    <a href="img/3-1.jpg" data-lightbox="gallery-item"><img src="img/3-1.jpg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sale-flash">Распродажа!</div>
+                                </div>
+                                <!-- Product Single - Gallery End -->
+                            </div>
+                            <div class="col_three_fourth col_last product-desc">
+                                <!-- Product Single - Price
+								============================================= -->
+                                <ul id="myTab" class="nav nav-tabs boot-tabs">
+                                    <li class="active"><a href="#home" data-toggle="tab"><i class='fa fa-truck'></i> Страндартная доставка</a></li>
+                                    <li><a href="#profile" data-toggle="tab"><i class='fa fa-ship'></i> Морем</a></li>
+                                    <li><a href="#dropdown1" data-toggle="tab"><i class='fa fa-plane'></i> Самолетом</a></li>
+                                    <li class="dropdown"> <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">Рубль<b class="caret"></b></a>
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                                            <li><a href="#" tabindex="-1" data-toggle="tab">Доллар</a></li>
+                                            <li><a href="#" tabindex="-1" data-toggle="tab">Евро</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                </li>
+                                </ul>
+                                <div id="myTabContent" class="tab-content">
+                                    <div class="tab-pane fade in active" id="home">
+                                       <table class="table cart">
+									<tbody>
+										<tr class="cart_item">
+											<td class="notopborder cart-product-name">
+												<strong>От 1 шт.</strong>
+											</td>
+
+											<td class="notopborder cart-product-name">
+												<span class="amount">120.50 ₽</span>
+											</td>
+										</tr>
+										<tr class="cart_item">
+											<td class="cart-product-name">
+												<strong>От 4 шт.</strong>
+											</td>
+
+											<td class="cart-product-name">
+												<span class="amount">110.10 ₽</span>
+											</td>
+										</tr>
+										<tr class="cart_item">
+											<td class="cart-product-name">
+												<strong>От 8 шт.</strong>
+											</td>
+
+											<td class="cart-product-name">
+												<span class="amount color lead"><strong>105.50 ₽</strong></span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+                                    </div>
+                                    <div class="tab-pane fade" id="profile">
+                                        <table class="table cart">
+									<tbody>
+										<tr class="cart_item">
+											<td class="notopborder cart-product-name">
+												<strong>От 1 шт.</strong>
+											</td>
+
+											<td class="notopborder cart-product-name">
+												<span class="amount">120.50 ₽</span>
+											</td>
+										</tr>
+										<tr class="cart_item">
+											<td class="cart-product-name">
+												<strong>От 4 шт.</strong>
+											</td>
+
+											<td class="cart-product-name">
+												<span class="amount">110.10 ₽</span>
+											</td>
+										</tr>
+										<tr class="cart_item">
+											<td class="cart-product-name">
+												<strong>От 8 шт.</strong>
+											</td>
+
+											<td class="cart-product-name">
+												<span class="amount color lead"><strong>105.50 ₽</strong></span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+                                    </div>
+                                    <div class="tab-pane fade" id="dropdown1">
+                                        <table class="table cart">
+									<tbody>
+										<tr class="cart_item">
+											<td class="notopborder cart-product-name">
+												<strong>От 1 шт.</strong>
+											</td>
+
+											<td class="notopborder cart-product-name">
+												<span class="amount">120.50 ₽</span>
+											</td>
+										</tr>
+										<tr class="cart_item">
+											<td class="cart-product-name">
+												<strong>От 4 шт.</strong>
+											</td>
+
+											<td class="cart-product-name">
+												<span class="amount">110.10 ₽</span>
+											</td>
+										</tr>
+										<tr class="cart_item">
+											<td class="cart-product-name">
+												<strong>От 8 шт.</strong>
+											</td>
+
+											<td class="cart-product-name">
+												<span class="amount color lead"><strong>105.50 ₽</strong></span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+                                    </div>
+                                </div>
+                                <!-- Product Single - Price End -->
+                                <div class="clear"></div>
+                                <!-- Product Single - Quantity & Cart Button
+								============================================= -->
+                                <form class="cart nobottommargin clearfix" method="post" enctype='multipart/form-data'>
+                                    <div class="quantity clearfix">
+                                        <input type="button" value="-" class="minus">
+                                        <input type="text" step="1" min="1" name="quantity" value="1" class="qty" size="4" />
+                                        <input type="button" value="+" class="plus"> </div>
+                                    <button type="submit" class="add-to-cart button nomargin">Добавить в корзину</button>
+                                </form>
+                                <!-- Product Single - Quantity & Cart Button End -->
+                                <div class="clear"></div>
+                                <div class="line"></div>
+                                <!-- Product Single - Short Description
+								============================================= -->
+                                <p>Трансформатор для монтажа на DIN-рейку. Герметизация эпоксидной смолой; электрическая прочность изоляции 4000 В. Соответствует европейскому стандарту качества EN61558. Степень защиты IP-20. Применяется для постоянного или временного питания слаботочных цепей управления.</p>
+                                <table class="table table-striped table-bordered">
+                                    <tbody>
+                                        <tr>
+                                            <td>Мощность</td>
+                                            <td>12 ВА</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Первичное напряжение</td>
+                                            <td>230 В</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Вторичное напряжение</td>
+                                            <td>12 В</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Рабочий ток</td>
+                                            <td>1 А</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Изоляция</td>
+                                            <td>4 кВ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Температурный класс</td>
+                                            <td>B (макс. темп. 130°C)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Макc. рабочая температура</td>
+                                            <td>40 °С</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- Product Single - Meta
+								============================================= -->
+                                <div class="panel panel-default product-meta">
+                                    <div class="panel-body"> <span class="posted_in">Документация: <a href="#" rel="tag">Скачать</a>.</span> </div>
+                                </div>
+                                <!-- Product Single - Meta End -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="line"></div>
+                    <div class="col_full nobottommargin">
+                        <h4>Ранее просмотренные продукты</h4>
+                        <div id="oc-product" class="owl-carousel product-carousel carousel-widget" data-margin="30" data-pagi="false" data-autoplay="5000" data-items-xxs="1" data-items-sm="2" data-items-md="3" data-items-lg="5">
+                            <div class="oc-item">
+                                <div class="product iproduct clearfix">
+                                    <div class="product-image">
+                                        <a href="#"><img src="img/3.jpg" alt=""></a>
+                                        <div class="sale-flash">50% скидка</div>
+                                        <div class="product-overlay"> <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> В корзину</span></a> <a href="#" class="item-quick-view"><i class="icon-zoom-in2"></i><span> Просмотр</span></a> </div>
+                                    </div>
+                                    <div class="product-desc center">
+                                        <div class="product-title">
+                                            <h3><a href="#">ETCC2301212</a></h3></div>
+                                        <div class="product-price"><del>39.99 ₽</del> <ins>39.99 ₽</ins></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oc-item">
+                                <div class="product iproduct clearfix">
+                                    <div class="product-image">
+                                        <a href="#"><img src="img/3.jpg" alt=""></a>
+                                        <div class="product-overlay"> <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> В корзину</span></a> <a href="#" class="item-quick-view"><i class="icon-zoom-in2"></i><span> Просмотр</span></a> </div>
+                                    </div>
+                                    <div class="product-desc center">
+                                        <div class="product-title">
+                                            <h3><a href="#">ETCC2301212</a></h3></div>
+                                        <div class="product-price">12.99 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oc-item">
+                                <div class="product iproduct clearfix">
+                                    <div class="product-image">
+                                        <a href="#"><img src="img/3.jpg" alt=""></a>
+                                        <div class="product-overlay"> <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> В корзину</span></a> <a href="#" class="item-quick-view"><i class="icon-zoom-in2"></i><span> Просмотр</span></a> </div>
+                                    </div>
+                                    <div class="product-desc center">
+                                        <div class="product-title">
+                                            <h3><a href="#">ETCC2301212</a></h3></div>
+                                        <div class="product-price">52.99 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oc-item">
+                                <div class="product iproduct clearfix">
+                                    <div class="product-image">
+                                        <a href="#"><img src="img/3.jpg" alt=""></a>
+                                        <div class="product-overlay"> <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> В корзину</span></a> <a href="#" class="item-quick-view"><i class="icon-zoom-in2"></i><span> Просмотр</span></a> </div>
+                                    </div>
+                                    <div class="product-desc center">
+                                        <div class="product-title">
+                                            <h3><a href="#">ETCC2301212</a></h3></div>
+                                        <div class="product-price">11.50 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oc-item">
+                                <div class="product iproduct clearfix">
+                                    <div class="product-image">
+                                        <a href="#"><img src="img/3.jpg" alt=""></a>
+                                        <div class="sale-flash">Sale!</div>
+                                        <div class="product-overlay"> <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> В корзину</span></a> <a href="#" class="item-quick-view"><i class="icon-zoom-in2"></i><span> Просмотр</span></a> </div>
+                                    </div>
+                                    <div class="product-desc center">
+                                        <div class="product-title">
+                                            <h3><a href="#">ETCC2301212</a></h3></div>
+                                        <div class="product-price"><del>59.99 ₽</del> <ins>39.99 ₽</ins></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oc-item">
+                                <div class="product iproduct clearfix">
+                                    <div class="product-image">
+                                        <a href="#"><img src="img/3.jpg" alt=""></a>
+                                        <div class="product-overlay"> <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> В корзину</span></a> <a href="#" class="item-quick-view"><i class="icon-zoom-in2"></i><span> Просмотр</span></a> </div>
+                                    </div>
+                                    <div class="product-desc center">
+                                        <div class="product-title">
+                                            <h3><a href="#">ETCC2301212</a></h3></div>
+                                        <div class="product-price">12.99 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oc-item">
+                                <div class="product iproduct clearfix">
+                                    <div class="product-image">
+                                        <a href="#"><img src="img/3.jpg" alt=""></a>
+                                        <div class="product-overlay"> <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> В корзину</span></a> <a href="#" class="item-quick-view"><i class="icon-zoom-in2"></i><span> Просмотр</span></a> </div>
+                                    </div>
+                                    <div class="product-desc center">
+                                        <div class="product-title">
+                                            <h3><a href="#">ETCC2301212</a></h3></div>
+                                        <div class="product-price">52.99 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oc-item">
+                                <div class="product iproduct clearfix">
+                                    <div class="product-image">
+                                        <a href="#"><img src="img/3.jpg" alt="Light Blue Denim Dress"></a>
+                                        <div class="product-overlay"> <a href="#" class="add-to-cart"><i class="icon-shopping-cart"></i><span> В корзину</span></a> <a href="#" class="item-quick-view"><i class="icon-zoom-in2"></i><span> Просмотр</span></a> </div>
+                                    </div>
+                                    <div class="product-desc center">
+                                        <div class="product-title">
+                                            <h3><a href="#">ETCC2301212</a></h3></div>
+                                        <div class="product-price">11.50 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- #content end -->
+        <!-- Footer
+		============================================= -->
+        <footer id="footer" class="dark" style="background: url('images/footer-bg.jpg') repeat fixed; background-size: 100% 100%;">
+            <div class="container">
+                <!-- Footer Widgets
+				============================================= -->
+                <div class="footer-widgets-wrap clearfix">
+                    <div class="col_one_third">
+                        <div class="widget clearfix"> <img src="images/footer-widget-logo.png" alt="" class="footer-logo">
+                            <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;"> <address>
+									<strong>г. Чебоксары</strong><br>
+									ул. Ярмарочная, 15/1, офис 1
+								</address> <abbr title="Phone Number"><strong>Phone:</strong></abbr> +7 (8352) 36-71-71
+                                <br> <abbr title="Email Address"><strong>Email:</strong></abbr> sales@onelec.ru
+                                <br>
+                                <br><address>
+									<strong>г. Москва</strong><br>
+									ул. 1-я Дубровская, дом 5, кв.25,<br>первый этаж, 2-й подъезд<br>
+								</address> <abbr title="Phone Number"><strong>Phone:</strong></abbr> +7 (495) 668-07-17
+                                <br> <abbr title="Email Address"><strong>Email:</strong></abbr> shop@onelec.ru </div>
+                        </div>
+                    </div>
+                    <div class="col_one_third">
+                        <div class="widget clearfix">
+                            <h4>Последние новости</h4>
+                            <div id="post-list-footer">
+                                <div class="spost clearfix">
+                                    <div class="entry-c">
+                                        <div class="entry-title">
+                                            <h4><a href="#">Тут предпологается наличие короткой версии новости. Не более 140 символов.</a></h4> </div>
+                                        <ul class="entry-meta">
+                                            <li>10 Июля 2016</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="spost clearfix">
+                                    <div class="entry-c">
+                                        <div class="entry-title">
+                                            <h4><a href="#">Тут предпологается наличие короткой версии новости. Не более 140 символов.</a></h4> </div>
+                                        <ul class="entry-meta">
+                                            <li>10 Июля 2016</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="spost clearfix">
+                                    <div class="entry-c">
+                                        <div class="entry-title">
+                                            <h4><a href="#">Тут предпологается наличие короткой версии новости. Не более 140 символов.</a></h4> </div>
+                                        <ul class="entry-meta">
+                                            <li>10 Июля 2016</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_one_third col_last">
+                        <div class="widget quick-contact-widget clearfix">
+                            <h4>PЗадать вопрос</h4>
+                            <div class="quick-contact-form-result"></div>
+                            <form id="quick-contact-form" name="quick-contact-form" action="include/quickcontact.php" method="post" class="quick-contact-form nobottommargin">
+                                <div class="form-process"></div>
+                                <div class="input-group divcenter"> <span class="input-group-addon"><i class="icon-user"></i></span>
+                                    <input type="text" class="required form-control input-block-level" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Ваше имя" /> </div>
+                                <div class="input-group divcenter"> <span class="input-group-addon"><i class="icon-email2"></i></span>
+                                    <input type="text" class="required form-control email input-block-level" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email адрес" /> </div>
+                                <textarea class="required form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Текст сообщения"></textarea>
+                                <input type="text" class="hidden" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
+                                <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="btn btn-danger nomargin" value="submit">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- .footer-widgets-wrap end -->
+            </div>
+            <!-- Copyrights
+			============================================= -->
+            <div id="copyrights">
+                <div class="container clearfix">
+                    <div class="col_full nobottommargin center">
+                        <div class="copyrights-menu copyright-links clearfix"> <a href="#">Главная</a>/<a href="#">Каталог</a>/<a href="#">Линия поставок</a>/<a href="#">Новости</a></div> Copyrights &copy; 2016 All Rights Reserved by Onelec. </div>
+                </div>
+            </div>
+            <!-- #copyrights end -->
+        </footer>
+        <!-- #footer end -->
+    </div>
+    <!-- #wrapper end -->
+    <!-- Go To Top
+	============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+    <!-- External JavaScripts
+	============================================= -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <!-- Bootstrap Select Plugin -->
+    <script type="text/javascript" src="js/bs-select.js"></script>
+    <!-- Range Slider Plugin -->
+    <script type="text/javascript" src="js/rangeslider.min.js"></script>
+    <script type="text/javascript" src="js/moment.js"></script>
+    <!-- Footer Scripts
+	============================================= -->
+    <script type="text/javascript" src="js/functions.js"></script>
+</body>
+
+</html>

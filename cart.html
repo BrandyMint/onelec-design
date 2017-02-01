@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!-- Stylesheets
+	============================================= -->
+    <!-- FONTS -->
+    <link href="fonts/raleway/raleway.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="fonts/lato/lato.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="http://fonts.googleapis.com/css?family=Crete+Round:400italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <!-- Bootstrap Select CSS -->
+    <link rel="stylesheet" href="css/bs-select.css" type="text/css" />
+    <!-- Range Slider CSS -->
+    <link rel="stylesheet" href="css/ion.rangeslider.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Radio Checkbox Plugin -->
+    <link rel="stylesheet" href="css/radio-checkbox.css" type="text/css" />
+    <!-- Document Title
+	============================================= -->
+    <title>Cart</title>
+    <style>
+        .white-section {
+            background-color: #FFF;
+            padding: 25px 20px;
+            -webkit-box-shadow: 0px 1px 1px 0px #dfdfdf;
+            box-shadow: 0px 1px 1px 0px #dfdfdf;
+            border-radius: 3px;
+        }
+        
+        .white-section label {
+            margin-bottom: 30px;
+        }
+        
+        .dark .white-section {
+            background-color: #333;
+            -webkit-box-shadow: 0px 1px 1px 0px #444;
+            box-shadow: 0px 1px 1px 0px #444;
+        }
+    </style>
+</head>
+
+<body class="stretched">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+        <!-- Top Bar
+		============================================= -->
+        <div id="top-bar">
+            <div class="container-fullwidth clearfix">
+                <div class="col_half nobottommargin hidden-xs">
+                    <p class="nobottommargin"><i class='fa fa-phone'></i>&nbsp;(495) 668-07-17&nbsp;&nbsp;&nbsp;(8352) 36-71-71&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<i class='fa fa fa-envelope'></i>&nbsp;<a href='mailto:sales@onelec.ru'>isales@onelec.ru</a></p>
+                </div>
+                <div class="col_half col_last fright nobottommargin">
+                    <!-- Top Links
+					============================================= -->
+                    <div class="top-links">
+                        <ul>
+                            <li><a href="#">RUB</a>
+                                <ul>
+                                    <li><a href="#">USD</a></li>
+                                    <li><a href="#">EUR</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">RU</a>
+                                <ul>
+                                    <li>
+                                        <a href="#"><img src="images/engl.png"> EN</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/french.png"> FR</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="images/german.png"> DE</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Вход</a>
+                                <div class="top-link-section">
+                                    <form id="top-login" role="form">
+                                        <div class="input-group" id="top-login-username"> <span class="input-group-addon"><i class="icon-user"></i></span>
+                                            <input type="email" class="form-control" placeholder="Email адрес" required=""> </div>
+                                        <div class="input-group" id="top-login-password"> <span class="input-group-addon"><i class="icon-key"></i></span>
+                                            <input type="password" class="form-control" placeholder="Пароль" required=""> </div>
+                                        <label class="checkbox">
+                                            <input type="checkbox" value="remember-me"> Забыл пароль </label>
+                                        <button class="btn btn-danger btn-block" type="submit">Вход</button>
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- .top-links end -->
+                </div>
+            </div>
+        </div>
+        <!-- #top-bar end -->
+        <!-- Header
+		============================================= -->
+        <header id="header">
+            <div id="header-wrap">
+                <div class="container-fullwidth clearfix">
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                    <!-- Logo
+					============================================= -->
+                    <div id="logo">
+                        <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png"></a>
+                        <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png"></a>
+                    </div>
+                    <!-- #logo end -->
+                    <!-- Primary Navigation
+					============================================= -->
+                    <nav id="primary-menu">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div>Главная</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>Каталог</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop.html">
+                                    <div>Линия поставок</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="shop.html">
+                                    <div>Новости</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- Top Cart
+						============================================= -->
+                        <div id="top-cart"> <a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
+                            <div class="top-cart-content">
+                                <div class="top-cart-title">
+                                    <h4>Товары в корзине</h4> </div>
+                                <div class="top-cart-items">
+                                    <div class="top-cart-item clearfix">
+                                        <div class="top-cart-item-image">
+                                            <a href="#"><img src="img/3.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="top-cart-item-desc"> <a href="#">ETCC2301212</a> <span class="top-cart-item-price">24.99 ₽</span> <span class="top-cart-item-quantity">x 2</span> </div>
+                                    </div>
+                                    <div class="top-cart-item clearfix">
+                                        <div class="top-cart-item-image">
+                                            <a href="#"><img src="img/3.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="top-cart-item-desc"> <a href="#">ETCC2301212</a> <span class="top-cart-item-price">39.99 ₽</span> <span class="top-cart-item-quantity">x 3</span> </div>
+                                    </div>
+                                </div>
+                                <div class="top-cart-action clearfix"> <span class="fleft top-checkout-price">114.95 ₽</span>
+                                    <button class="button button-small nomargin fright">Оформить</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #top-cart end -->
+                        <!-- Top Search
+						============================================= -->
+                        <div id="top-search"> <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                            <form action="search.html" method="get">
+                                <input type="text" name="q" class="form-control" value="" placeholder="Найти по назаванию или производителю"> </form>
+                        </div>
+                        <!-- #top-search end -->
+                    </nav>
+                    <!-- #primary-menu end -->
+                </div>
+            </div>
+        </header>
+        <!-- #header end -->
+        <!-- Page Title
+		============================================= -->
+        <section id="page-title">
+            <div class="container-fullwidth clearfix">
+                <h1>Оформление заказа</h1>
+                <ol class="breadcrumb">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Корзина</a></li>
+                    <li><a href="#">Оплата</a></li>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <!-- #page-title end -->
+        <!-- Content
+		============================================= -->
+        <section id="content">
+            <div class="content-wrap">
+                <div class="container clearfix">
+                    <div class="table-responsive bottommargin">
+                        <table class="table cart">
+                            <thead>
+                                <tr>
+                                    <th>&nbsp;</th>
+                                    <th>Позиция</th>
+                                    <th>Цена за штуку</th>
+                                    <th>Количество</th>
+                                    <th>Всего</th>
+                                    <th>&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="cart_item">
+                                    <td class="cart-product-thumbnail">
+                                        <a href="#"><img width="64" height="64" src="img/3-1t.jpg"></a>
+                                    </td>
+                                    <td> <a href="#">ETCC2301212</a> </td>
+                                    <td> <span class="amount">19.99 ₽</span> </td>
+                                    <td>
+                                        <div class="quantity clearfix">
+                                            <input type="button" value="-" class="minus">
+                                            <input type="text" name="quantity" value="2" class="qty" />
+                                            <input type="button" value="+" class="plus"> </div>
+                                    </td>
+                                    <td> <span class="amount">39.99 ₽</span> </td>
+                                    <td class="cart-product-remove"> <a href="#" class="remove"><i class="icon-trash2"></i></a> </td>
+                                </tr>
+                                <tr class="cart_item">
+                                    <td class="cart-product-thumbnail">
+                                        <a href="#"><img width="64" height="64" src="img/3-1t.jpg"></a>
+                                    </td>
+                                    <td> <a href="#">ETCC2301212</a> </td>
+                                    <td> <span class="amount">12.25 ₽</span> </td>
+                                    <td>
+                                        <div class="quantity clearfix">
+                                            <input type="button" value="-" class="minus">
+                                            <input type="text" name="quantity" value="1" class="qty" />
+                                            <input type="button" value="+" class="plus"> </div>
+                                    </td>
+                                    <td> <span class="amount">24.99 ₽</span> </td>
+                                    <td class="cart-product-remove"> <a href="#" class="remove"><i class="icon-trash2"></i></a> </td>
+                                </tr>
+                                <tr class="cart_item">
+                                    <td class="cart-product-thumbnail">
+                                        <a href="#"><img width="64" height="64" src="img/3-1t.jpg"></a>
+                                    </td>
+                                    <td> <a href="#">ETCC2301212</a> </td>
+                                    <td> <span class="amount">14.95 ₽</span> </td>
+                                    <td>
+                                        <div class="quantity clearfix">
+                                            <input type="button" value="-" class="minus">
+                                            <input type="text" name="quantity" value="3" class="qty" />
+                                            <input type="button" value="+" class="plus"> </div>
+                                    </td>
+                                    <td> <span class="amount">25.99 ₽</span> </td>
+                                    <td class="cart-product-remove"> <a href="#" class="remove"><i class="icon-trash2"></i></a> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-md-6 clearfix">
+                            <h4>Информация о покупателе</h4>
+                            <form>
+                            <div class="col_half">
+                                <input type="text" class="sm-form-control" placeholder="Email" />
+                            </div>
+                            <div class="col_half col_last">
+                                <input type="text" class="sm-form-control" placeholder="Телефон" />
+                            </div>
+                             </form>
+                            <div class="col_full" style="padding-top:-10px">
+									<button class="button nomargin" data-toggle="modal" data-target="#myModal">Выслать код подтверждения</button>
+								</div>
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-body center">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+													<h4 class="modal-title" id="myModalLabel">Ввести код подтверждения</h4>
+												</div>
+												<div class="modal-body section nobg">
+												<div class="col-md-12 clearfix">
+													<div class="col_full">
+                                            <input type="text" class="sm-form-control" placeholder="Введите код подтверждения" /> </div>
+													<div class="col_full nobottommargin">
+														<a href="#" class="button center">подтвердить</a> 
+													</div><a href="#">Не получили код? Выслать повторно</a>
+												</div></div>
+											</div>
+										</div>
+									</div>
+								</div>
+                            <div>
+                                <ul id="myTab" class="nav nav-tabs boot-tabs">
+                                    <li class="active"><a href="#home" data-toggle="tab">Частное лицо</a></li>
+                                    <li><a href="#profile" data-toggle="tab">Юридическое лицо</a></li> <a href="#" class="button nomargin button-black fright">добавить контрагента</a> </ul>
+                            </div>
+                            <div id="myTabContent" class="tab-content">
+                                <div class="tab-pane fade in active" id="home">
+                                    <form>
+                                        <div class="col_half">
+                                            <input type="text" class="sm-form-control" placeholder="Имя" /> </div>
+                                        <div class="col_half col_last">
+                                            <input type="text" class="sm-form-control" placeholder="Фамилия" /> </div>
+                                        <div class="col_full">
+                                            <select class="sm-form-control">
+                                                <option value="AF">Москва</option>
+                                                <option value="AF">Санкт-Петербург</option>
+                                                <option value="AF">Нижний Новогород</option>
+                                                <option value="AF">Казань</option>
+                                                <option value="AF">Чебоксары</option>
+                                                <option value="AF">Санкт-Петербург</option>
+                                            </select>
+                                        </div>
+                                        <div class="col_full">
+                                            <input type="text" class="sm-form-control" placeholder="Адрес" /> </div>
+                                        <textarea class="sm-form-control" id="shipping-form-message" name="shipping-form-message" rows="6" cols="30" placeholder="Коментарий"></textarea>
+                                        <div class="col_full"> </div>
+                                </div>
+                                </form>
+                                <div class="tab-pane fade" id="profile">
+                                    <form>
+                                        <div class="col_full">
+                                            <input type="text" class="sm-form-control" placeholder="Наименование организации" /> </div>
+                                        <div class="col_full">
+                                            <input type="text" class="sm-form-control" placeholder="ИНН" /> </div>
+                                        <div class="col_full">
+                                            <input type="text" class="sm-form-control" placeholder="Юридический адрес" />
+                                            <br>
+                                            <input id="checkbox-3" class="checkbox-style" name="checkbox-3" type="checkbox">
+                                            <label for="checkbox-3" class="checkbox-style-3-label checkbox-small"></label>совпадает с адресом доставки </div>
+                                        <div class="col_full">
+                                            <input type="text" class="sm-form-control" placeholder="Адрес доставки" /> </div>
+                                        <textarea class="sm-form-control" id="shipping-form-message" name="shipping-form-message" rows="6" cols="30" placeholder="Коментарий"></textarea>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 clearfix">
+                            <div class="table-responsive">
+                                <h4>Оплата</h4>
+                                <table class="table cart">
+                                    <tbody>
+                                        <tr class="cart_item">
+                                            <td class="cart-product-name"> <strong>Сумма</strong> </td>
+                                            <td class="cart-product-name"> <span class="amount">114.95 ₽</span> </td>
+                                        </tr>
+                                        <tr class="cart_item">
+                                            <td class="cart-product-name"> <strong>Доставка</strong> </td>
+                                            <td class="cart-product-name"> <span class="amount">Почтой</span> </td>
+                                        </tr>
+                                        <tr class="cart_item">
+                                            <td class="cart-product-name"> <strong>К оплате</strong> </td>
+                                            <td class="cart-product-name"> <span class="amount color lead"><strong>206.94 ₽</strong></span> </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="accordion clearfix">
+                                <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Информация о доставке</div>
+                                <div class="acc_content clearfix">Доставка товара в любой регион осуществляется с помощью транспортных компаний. Доставка до транспортной компании - 590 рублей, включая оплату за въезд на терминал транспортной компании (большинство берет за это плату). Стоимость доставки транспортной компанией оплачивается по тарифам транспортной компании непосредственно при получении. Оплата за товар в случае его доставки в регион производится банковским переводом со 100% предоплатой, либо может быть оплачен вашим представителем в г.Москве наличными. Все необходимые документы на товар передаются с транспортной компанией, либо вашему представителю, если оплата была в Москве.</div>
+                                <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Информация о выставении счета</div>
+                                <div class="acc_content clearfix">Доставка товара в любой регион осуществляется с помощью транспортных компаний. Доставка до транспортной компании - 590 рублей, включая оплату за въезд на терминал транспортной компании (большинство берет за это плату). Стоимость доставки транспортной компанией оплачивается по тарифам транспортной компании непосредственно при получении. Оплата за товар в случае его доставки в регион производится банковским переводом со 100% предоплатой, либо может быть оплачен вашим представителем в г.Москве наличными. Все необходимые документы на товар передаются с транспортной компанией, либо вашему представителю, если оплата была в Москве.</div>
+                                <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Информация об оплате</div>
+                                <div class="acc_content clearfix">Доставка товара в любой регион осуществляется с помощью транспортных компаний. Доставка до транспортной компании - 590 рублей, включая оплату за въезд на терминал транспортной компании (большинство берет за это плату). Стоимость доставки транспортной компанией оплачивается по тарифам транспортной компании непосредственно при получении. Оплата за товар в случае его доставки в регион производится банковским переводом со 100% предоплатой, либо может быть оплачен вашим представителем в г.Москве наличными. Все необходимые документы на товар передаются с транспортной компанией, либо вашему представителю, если оплата была в Москве.</div>
+                            </div> <a href="#" class="button fright">Разместить заказ</a> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- #content end -->
+        <!-- Footer
+		============================================= -->
+        <footer id="footer" class="dark" style="background: url('images/footer-bg.jpg') repeat fixed; background-size: 100% 100%;">
+            <div class="container">
+                <!-- Footer Widgets
+				============================================= -->
+                <div class="footer-widgets-wrap clearfix">
+                    <div class="col_one_third">
+                        <div class="widget clearfix"> <img src="images/footer-widget-logo.png" alt="" class="footer-logo">
+                            <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;"> <address>
+									<strong>г. Чебоксары</strong><br>
+									ул. Ярмарочная, 15/1, офис 1
+								</address> <abbr title="Phone Number"><strong>Phone:</strong></abbr> +7 (8352) 36-71-71
+                                <br> <abbr title="Email Address"><strong>Email:</strong></abbr> sales@onelec.ru
+                                <br>
+                                <br><address>
+									<strong>г. Москва</strong><br>
+									ул. 1-я Дубровская, дом 5, кв.25,<br>первый этаж, 2-й подъезд<br>
+								</address> <abbr title="Phone Number"><strong>Phone:</strong></abbr> +7 (495) 668-07-17
+                                <br> <abbr title="Email Address"><strong>Email:</strong></abbr> shop@onelec.ru </div>
+                        </div>
+                    </div>
+                    <div class="col_one_third">
+                        <div class="widget clearfix">
+                            <h4>Последние новости</h4>
+                            <div id="post-list-footer">
+                                <div class="spost clearfix">
+                                    <div class="entry-c">
+                                        <div class="entry-title">
+                                            <h4><a href="#">Тут предпологается наличие короткой версии новости. Не более 140 символов.</a></h4> </div>
+                                        <ul class="entry-meta">
+                                            <li>10 Июля 2016</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="spost clearfix">
+                                    <div class="entry-c">
+                                        <div class="entry-title">
+                                            <h4><a href="#">Тут предпологается наличие короткой версии новости. Не более 140 символов.</a></h4> </div>
+                                        <ul class="entry-meta">
+                                            <li>10 Июля 2016</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="spost clearfix">
+                                    <div class="entry-c">
+                                        <div class="entry-title">
+                                            <h4><a href="#">Тут предпологается наличие короткой версии новости. Не более 140 символов.</a></h4> </div>
+                                        <ul class="entry-meta">
+                                            <li>10 Июля 2016</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_one_third col_last">
+                        <div class="widget quick-contact-widget clearfix">
+                            <h4>PЗадать вопрос</h4>
+                            <div class="quick-contact-form-result"></div>
+                            <form id="quick-contact-form" name="quick-contact-form" action="include/quickcontact.php" method="post" class="quick-contact-form nobottommargin">
+                                <div class="form-process"></div>
+                                <div class="input-group divcenter"> <span class="input-group-addon"><i class="icon-user"></i></span>
+                                    <input type="text" class="required form-control input-block-level" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Ваше имя" /> </div>
+                                <div class="input-group divcenter"> <span class="input-group-addon"><i class="icon-email2"></i></span>
+                                    <input type="text" class="required form-control email input-block-level" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email адрес" /> </div>
+                                <textarea class="required form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Текст сообщения"></textarea>
+                                <input type="text" class="hidden" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
+                                <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="btn btn-danger nomargin" value="submit">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- .footer-widgets-wrap end -->
+            </div>
+            <!-- #wrapper end -->
+            <!-- Go To Top
+	============================================= -->
+            <div id="gotoTop" class="icon-angle-up"></div>
+            <!-- External JavaScripts
+	============================================= -->
+            <script type="text/javascript" src="js/jquery.js"></script>
+            <script type="text/javascript" src="js/plugins.js"></script>
+            <!-- Bootstrap Select Plugin -->
+            <script type="text/javascript" src="js/bs-select.js"></script>
+            <!-- Range Slider Plugin -->
+            <script type="text/javascript" src="js/rangeslider.min.js"></script>
+            <script type="text/javascript" src="js/moment.js"></script>
+            <!-- Footer Scripts
+	============================================= -->
+            <script type="text/javascript" src="js/functions.js"></script>
+</body>
+
+</html>
